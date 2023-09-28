@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f1f2f6;
+  color: #2f3542;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #2f3542;
+  color: #f1f2f6;
+  padding: 70px;
+}
+
+.form {
+  background-color: #ffffff;
+  color: #2f3542;
+  width: 480px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.input-task {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 70%;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn-add-task {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #3742fa;
+  color: #f1f2f6;
+  border-radius: 8px;
+}
+
+.btn-add-task:hover {
+  cursor: pointer;
+  background-color: #5352ed;
+  transition: 500ms;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 30px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.list-task-title {
+  margin-bottom: 10px;
+}
+
+.task-text {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+#list-tasks {
+  background-color: #ced6e0;
+  margin: 50px;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+.list-info, .list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-pending {
+  background-color: #ff4757;
+}
+
+.status-completed {
+  background-color: #2ed573;
+}
+.status-completed, .status-pending {
+  color: #f1f2f6;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.status-completed:hover, .status-pending:hover {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.filtro {
+  border: none;
+  color: #f1f2f6;
+  background-color: #2f3542;
+  padding: 10px;
+  border-radius: 8px;
+  width: 130px;
+}
+
+.filtro:hover {
+  cursor: pointer;
+  background-color: #57606f;
+  transition: 300ms;
+}
+
+#clear-completed {
+  background-color: #ff4757;
+}
+
+#clear-completed:hover {
+  background-color: #ff6b81;
+  transition: 300ms;
+}
+
+
+
